@@ -1,0 +1,222 @@
+body {
+	background-color: #292414;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+#container {
+	margin: 0 auto;
+}
+
+#side_flourish {
+	margin:0 auto;
+	background-image:url("assets/flourishes-bg.gif");
+	width:1148px;
+}
+
+#side_shadow {
+	margin: 0 auto;
+	background-image:url("assets/shadows-bg.png");
+	width: 1008px;
+}
+
+#main_wrapper {
+	margin: 0 auto;
+    width:  960px; 
+}
+
+header #banner {
+	font-family: "Times New Roman", Times, serif;
+	width: 960px;
+	height: 100px;
+	margin: 0px; padding: 0px;
+	position:relative;
+}
+
+header #hamilton_star {
+	float: left;
+    border-right: 1px solid #c9962b; 
+	padding: 0px; 
+	margin: 0px;
+}
+
+header #banner nav {
+    color: #FFFFFF;
+    width: 859px; /* 960 - 101 */
+    background-color: #2e2105;
+    height: 24px;
+    float: right;
+    padding-top: 6px;
+}
+
+header #banner nav ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style-type: none; /* Remove bullets */
+}
+
+header #banner nav li {
+	margin-left:  25px;  
+	float: left; 
+}
+
+header #banner nav ul li a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+header #banner nav ul li a:hover {
+    color: white; /* Ensure the color stays white on hover */
+    text-decoration: underline; /* Ensure the underline doesn't appear on hover */
+}
+
+header #banner #line2 {
+	width: 859px; /* 960 - 101 */
+	background-color: #ffffff;
+	height: 70px;
+	float: right;
+	vertical-align: middle;
+	padding: 0px;
+	margin: 0px;
+}
+
+
+header #banner #line2 {
+    width: 859px; /* 960 - 101 */
+    background-color: #a16526;
+    height: 70px;
+    float: right;
+    vertical-align: middle;
+    padding: 0px;
+    margin: 0px;
+}
+
+header #banner #line2 h1 {
+    color: #FFFFFF;
+    font-size: 40px;
+    font-weight: normal;
+    margin: 14px 10px 10px 15px;
+    position:relative;
+    width:730px;
+}
+
+header #banner #line2 a {
+	text-decoration:none;
+}
+
+header #banner #line2 a:hover {
+	text-decoration:underline;
+}
+
+
+#main {
+	padding:  20px 45px 55px 45px;
+	background: #f4f3ee;
+	position:relative;
+}
+
+#quick_intro #intro {
+	border-top: solid 4px #ca7700;
+	padding-top: 12px;
+	margin: 0px;
+	width: 870px;
+	font-family: "Times New Roman", Times, serif;
+}
+
+#quick_intro #intro h2 {
+	color: #ca7700;
+	font-family: Trajan Pro;
+	font-size: 21px;
+	line-height:1.6em;
+	text-transform: uppercase;
+	padding: 0px;
+	margin: 0px;
+}
+
+#paragraph-container {
+    left: -45px;
+    padding: 30px 45px;
+    position: relative;
+    width: 870px;
+}
+
+.sortable-list {
+    list-style-type: none;
+    cursor: grab;
+    padding: 0;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    font-family: 'Garamond', 'Georgia', serif;
+}
+
+.item.dragging {
+    background-color: #d7ccc8;
+    opacity: 0.5;
+}
+
+#checkOrderBtn {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #8d6e63;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Garamond', 'Georgia', serif;
+}
+
+#checkOrderBtn:hover {
+    background-color: #6d4c41;
+}
+
+input.blank {
+    border: 1px solid #d7ccc8;
+    padding: 5px;
+    font-size: 1em;
+    width: 150px;
+    margin-left: 5px;
+    border-radius: 5px;
+    font-family: 'Garamond', 'Georgia', serif;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    width: 300px;
+    text-align: center;
+    position: relative;
+    font-family: 'Garamond', 'Georgia', serif;
+}
+
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 20px;
+    cursor: pointer;
+}

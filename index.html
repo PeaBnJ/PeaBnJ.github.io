@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alexander Hamilton: Drag and Complete</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+      <div id="side_flourish">
+        <div id="side_shadow">
+          <div id="main_wrapper">
+            <header>
+              <div id="banner">
+                <a href="https://peabnj.github.io/" id="hamilton_star">
+                  <img alt="Hamilton Star" title="Hamilton Star" src="./assets/hamilton_star.jpg" height="100" width="100">
+                </a>
+                <nav>
+                  <ul>
+                    <li><a href="https://peabnj.github.io/">Home</a></li>
+                    <li><a href="#" id="loginLink">Login</a></li>
+                    <li><a href="#" id="registerLink">Register</a></li>
+                    <li><a href="#" id="logoutLink" style="display: none;">Logout</a></li>
+                  </ul>
+                </nav>
+                <div id="line2">
+                  <h1>
+                    Alexander Hamilton: Drag and Complete
+                  </h1>
+                </div>
+              </div>
+            </header>
+            <div id="main" role="main" class="clearfix" style="min-height: 90px;">
+              <div id="quick_intro" class="clearfix">
+                <section id="intro">
+                  <h2>Drag the paragraphs into the correct order, and paraphrase the blanks with the correct words.</h2>
+                </section>
+              </div>
+              <div id="paragraph-container" class="clearfix">
+                  <div class="paragraph">
+                      <ul class="sortable-list">
+                          <li class="item" draggable="true" id="para1">
+                            <div class="details">
+                              <span>
+                                  How does a bastard, <input type="text" class="blank" id="input1_1" placeholder="without parents">, son of a whore<br>
+                                  And a Scotsman, dropped in the middle of a forgotten spot<br>
+                                  In the Caribbean by providence impoverished<br>
+                                  In squalor, grow up to be a <input type="text" id="input1_2" class="blank" placeholder="distinguished figure"> and a <input type="text" class="blank" id="input1_3" placeholder="learned individual">?
+                            </div>
+                          </li>
+                          <li class="item" draggable="true" id="para2">
+                            <div class="details">
+                              <span>
+                                  The ten-dollar founding father <input type="text" class="blank" id="input2_1" placeholder="who had no father"><br>
+                                  Got a lot farther by working a lot harder<br>
+                                  By being a lot smarter<br>
+                                  By being a self-starter<br>
+                                  By fourteen, they placed him in charge of a trading charter
+                              </span>
+                            </div>
+                          </li>
+                          <li class="item" draggable="true" id="para3">
+                            <div class="details">
+                              <span>
+                                  And <input type="text" class="blank" id="input3_1" placeholder="each day"> while slaves were being slaughtered and <input type="text" class="blank" id="input3_2" placeholder="transported"><br>
+                                  <input type="text" class="blank" id="input3_3" placeholder="across the sea">, he struggled and <input type="text" class="blank" id="input3_4" placeholder="to stay alert and vigilant"><br>
+                                  Inside, he was longing for something to be a part of<br>
+                                  The brother was ready to beg, steal, borrow, or barter                             </span>
+                            </div>
+                          </li>
+                          <li class="item" draggable="true" id="para4">
+                            <div class="details">
+                              <span>
+                                  Then a hurricane came, and devastation reigned<br>
+                                  Our man saw his future drip, <input type="text" class="blank" id="input4_1" placeholder="slipping away">the drain<br>
+                                  Put a pencil to his temple, connected it to his brain<br>
+                                  And he wrote his first refrain, a testament to his pain
+                              </span>
+                            </div>
+                          </li>
+                          <li class="item" draggable="true" id="para5">
+                            <div class="details">
+                              <span>
+                                  Well, <input type="text" class="blank" id="input5_1" placeholder="news spread">got around, they said, this kid is insane, man<br>
+                                  Took up a collection just to send him to the mainland<br>
+                                  Get your education, don't forget from whence you came<br>
+                                  And the world is gonna know your name
+                                  What's your name, man?
+                              </span>
+                            </div>
+                          </li>
+                          <li class="item" draggable="true" id="para6">
+                            <div class="details">
+                              <span>
+                                  Alexander Hamilton<br>
+                                  My name is Alexander Hamilton<br>
+                                  And there's a million things I haven't done<br>
+                                  But just you wait, just you wait
+                              </span>
+                            </div>
+                          </li>
+                          <li class="item" draggable="true" id="para7">
+                              <div class="details">
+                                <span>
+                                  When he was ten his father <input type="text" class="blank" id="input7_1" placeholder="abandoned them">, full of it, debt-ridden<br>
+                                  Two years later, see Alex and his mother bed-ridden<br>
+                                  Half-dead sittin' in their own sick, the scent thick<br><br>
+                                  And Alex got better but his mother went quick<br><br>
+                                  Moved in with a cousin, the cousin <input type="text" class="blank" id="input7_2" placeholder="took their own life"><br>
+                                  Left him with nothin' but ruined pride, something new inside<br>
+                                  A voice saying, "Alex, you gotta fend for yourself"<br><br>
+                                  He started retreatin' and readin' every treatise on the shelf
+                                </span>
+                              </div>
+                            </li>
+                          <li class="item" draggable="true" id="para8">
+                            <div class="details">
+                              <span>
+                                  There would have been nothin' left to do for someone less astute<br>
+                                  He woulda been dead or destitute without a cent of restitution<br>
+                                  <input type="text" class="blank" id="input8_1" placeholder="Began workin'">, clerkin' for his late mother's landlord<br>
+                                  Tradin' sugar cane and rum and all the things he can't afford<br>
+                                  Scammin' for every book he can get his hands on<br>
+                                  Plannin' for the future see him now as he stands on<br>
+                                  <input type="text" class="blank" id="input8_2" placeholder="the front">of a ship headed for the new land<br>
+                                  In New York you can be a new man
+                              </span>
+                            </div>
+                          </li>
+                          <li class="item" draggable="true" id="para9">
+                              <div class="details">
+                                <span>
+                                  In New York you can be a new man (just you wait)<br>
+                                  In New York you can be a new man (just you wait)<br>
+                                  In New York you can be a new man<br><br>
+                                  In New York, New York<br>
+                                  Just you wait
+                                </span>
+                              </div>
+                          </li>
+                          <li class="item" draggable="true" id="para10">
+                            <div class="details">
+                              <span>
+                                Alexander Hamilton<br><br>
+                                Alexander Hamilton<br><br>
+                                We are waiting in the wings for you<br><br>
+                                Waiting in the wings for you<br><br>
+                                You could never back down<br>
+                                You never learned to take your time<br><br>
+                                Oh, Alexander Hamilton<br><br>
+                                Alexander Hamilton<br><br>
+                                When America sings for you<br>
+                                Will they know what you overcame?<br>
+                                Will they know you rewrote your game?<br>
+                                The world will never be the same, oh<br>
+                              </span>
+                            </div>
+                        </li>
+                        </ul>
+                  </div>
+              </div>
+                  <button id="checkOrderBtn">Check Order and Answers</button>
+                </div>
+              </div>
+
+            <div id="popupModal" class="modal">
+                <div class="modal-content">
+                    <span class="close-btn">&times;</span>
+                    <p id="popupMessage"></p>
+                </div>
+            </div>
+            
+            <!-- Register Modal -->
+            <div id="registerModal" class="modal">
+              <div class="modal-content">
+                  <span class="close-btn" id="closeRegisterModal">&times;</span>
+                  <h2>Register</h2>
+                  <form id="registerForm">
+                    <label for="registerEmail">Email:</label>
+                    <input type="email" id="registerEmail" name="email" required>
+                    <label for="registerPassword">Password:</label>
+                    <input type="password" id="registerPassword" name="password" required>
+                    <button type="submit">Register</button>
+                  </form>
+              </div>
+            </div>
+
+            <!-- Login Modal -->
+            <div id="loginModal" class="modal">
+              <div class="modal-content">
+                  <span class="close-btn" id="closeModal">&times;</span>
+                  <h2>Login</h2>
+                  <form id="loginForm">
+                    <label for="loginEmail">Email:</label>
+                    <input type="email" id="loginEmail" name="email" required>
+                    <label for="loginPassword">Password:</label>
+                    <input type="password" id="loginPassword" name="password" required>
+                    <button type="submit">Login</button>
+                </form>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Main JavaScript file -->
+    <script type="module" src="./main.js"></script>
+
+    <!-- Supabase utilities -->
+    <script type="module" src="./supabase-utils.js"></script>
+
+    <!-- Authentication-related logic -->
+    <script type="module" src="./auth.js"></script>
+
+</body>
+</html>
